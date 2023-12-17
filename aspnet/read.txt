@@ -1,0 +1,6 @@
+Connect to docker mysql container:
+$ docker exec -it sneaker-db mysql -u property_user -p
+
+migrate db:
+$ docker exec -w /app/aspnet -it sneaker-migration /root/.dotnet/tools/dotnet-ef database update
+
