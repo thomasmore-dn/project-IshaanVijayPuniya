@@ -4,11 +4,11 @@ $ __cd Sneaker__
 
 $ __docker-compose -f docker-compose.yml -f docker-compose.debug.yml up__
 
-### Migrate database (only run when using for the first time!):
+### Migrate database ( first time only but important!):
 
 $ __docker exec -w /app/aspnet -it sneaker-migration /root/.dotnet/tools/dotnet-ef database update__
 
- Run the maui app!
+ Run the maui app and Enjoy!
 
 (__dotnet build -t:Run -f net7.0-android__) 
 
