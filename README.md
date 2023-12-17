@@ -1,4 +1,4 @@
-# To run this application:
+# To run this APP:
 
 $ __cd Sneaker__
 
@@ -11,6 +11,8 @@ $ __docker exec -w /app/aspnet -it sneaker-migration /root/.dotnet/tools/dotnet-
  Run the maui app and Enjoy!
 
 (__dotnet build -t:Run -f net7.0-android__) 
+
+Extra note : Extra debug files that could not be added to GIT were sent as zip file to lecturer Joris and can be added in maui/obj/debug/  extracted folder Debug -- replace the debug folder here
 
 
 
