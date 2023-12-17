@@ -1,0 +1,38 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  sneaker-db:
+    image: mysql:8.0.22
+    ports:
+      - "3306:3306"
+    volumes:
+      - datafiles:/var/lib/mysql
+    restart: always
+    container_name: sneaker-db
+    environment: 
+      MYSQL_ROOT_PASSWORD: property_pass
+      MYSQL_USER: property_user
+      MYSQL_PASSWORD: property_pass
+      MYSQL_DATABASE: property
+
+  sneaker-api:
+    build:
+      context: .
+      dockerfile: aspnet/Dockerfile
+    ports:
+      - 8000:80
+    depends_on:
+      - sneaker-db
+    restart: always
+
+  sneaker-migration:
+    build:
+      context: .
+      dockerfile: Dockerfile.migration
+    container_name: sneaker-migration
+    tty: true
+
+volumes:
+  datafiles: null
