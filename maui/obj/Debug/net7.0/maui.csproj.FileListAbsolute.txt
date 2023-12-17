@@ -1,0 +1,13 @@
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\bin\Debug\net7.0\maui.deps.json
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\bin\Debug\net7.0\maui.dll
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\bin\Debug\net7.0\maui.pdb
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\maui.csproj.AssemblyReference.cache
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\maui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\maui.AssemblyInfoInputs.cache
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\maui.AssemblyInfo.cs
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\maui.csproj.CoreCompileInputs.cache
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\XamlC.stamp
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\maui.dll
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\refint\maui.dll
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\maui.pdb
+C:\Users\ishaa\Downloads\PropertyApp-main (1)\PropertyApp-main\maui\obj\Debug\net7.0\ref\maui.dll
