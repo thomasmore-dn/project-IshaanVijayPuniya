@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net7.0",
+    "\\bin\\Release",
+    "\\Contexts",
+    "\\Controllers",
+    "\\dto",
+    "\\Properties",
+    "\\Repositories"
+  ],
+  "PreviewInSolutionExplorer": false
+}
