@@ -1,0 +1,13 @@
+﻿
+
+	<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+
+These files will be deployed with you package and will be accessible using Essentials through the emulator or real device you use:
+
+	async Task LoadMauiAsset()
+	{
+		using var stream = await FileSystem.OpenAppPackageFileAsync("AboutAssets.txt");
+		using var reader = new StreamReader(stream);
+
+		var contents = reader.ReadToEnd();
+	}

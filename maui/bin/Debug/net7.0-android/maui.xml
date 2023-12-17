@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>maui</name>
+    </assembly>
+    <members>
+        <member name="P:maui.ViewModels.AddSneakerVM.Sneak">
+            <inheritdoc cref="F:maui.ViewModels.AddSneakerVM.sneak"/>
+        </member>
+        <member name="F:maui.ViewModels.AddSneakerVM.selectImageCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.AddSneakerVM.SelectImageCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.AddSneakerVM.SelectImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.AddSneakerVM.SelectImage"/>.</summary>
+        </member>
+        <member name="F:maui.ViewModels.AddSneakerVM.confirmButtonCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.AddSneakerVM.ConfirmButtonCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.AddSneakerVM.ConfirmButtonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.AddSneakerVM.ConfirmButton"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.IsRefreshing">
+            <inheritdoc cref="F:maui.ViewModels.MainPageVM.isRefreshing"/>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.Selectedsneaker">
+            <inheritdoc cref="F:maui.ViewModels.MainPageVM.selectedsneaker"/>
+        </member>
+        <member name="F:maui.ViewModels.MainPageVM.getSneakersCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.MainPageVM.GetSneakersCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.GetSneakersCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.MainPageVM.GetSneakersAsync"/>.</summary>
+        </member>
+        <member name="F:maui.ViewModels.MainPageVM.addSneakerClickedCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.MainPageVM.AddSneakerClickedCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.AddSneakerClickedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.MainPageVM.AddSneakerClicked"/>.</summary>
+        </member>
+        <member name="F:maui.ViewModels.MainPageVM.navigateToDetailCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.MainPageVM.NavigateToDetailCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.NavigateToDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.MainPageVM.NavigateToDetail"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.SneakerDetailVM.Sneaker">
+            <inheritdoc cref="F:maui.ViewModels.SneakerDetailVM.sneaker"/>
+        </member>
+        <member name="F:maui.ViewModels.SneakerDetailVM.deleteButtonCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.SneakerDetailVM.DeleteButtonCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.SneakerDetailVM.DeleteButtonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.SneakerDetailVM.DeleteButton"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.SneakerVM.IsBusy">
+            <inheritdoc cref="F:maui.ViewModels.SneakerVM.isBusy"/>
+        </member>
+    </members>
+</doc>

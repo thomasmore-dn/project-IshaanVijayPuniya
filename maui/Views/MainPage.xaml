@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="maui.MainPage"
+             xmlns:model="clr-namespace:maui.Models"
+             xmlns:viewmodel="clr-namespace:maui.ViewModels"
+             x:DataType="viewmodel:MainPageVM"
+             Title="{Binding UpperTitle}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Toevoegen" Command="{Binding AddSneakerClickedCommand}" />
+
+    </ContentPage.ToolbarItems>
+     
+    <RefreshView Command="{Binding GetSneakersCommand}" IsRefreshing="{Binding IsRefreshing}">
+        <ScrollView>
+            <CollectionView x:Name="collectionView"
+                            SelectionMode="Single"
+                            SelectionChangedCommand="{Binding NavigateToDetailCommand}"
+                            SelectedItem="{Binding Selectedsneaker}"
+                            ItemsSource="{Binding Sneakers}">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Sneaker">
+                        <Border HeightRequest="120" Padding="6">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="15"/>
+                            </Border.StrokeShape>
+                            <HorizontalStackLayout Spacing="7">
+                                <Grid>
+                                    <Border>
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="10"/>
+                                        </Border.StrokeShape>
+                                        <Image Source="{Binding Picture}" Aspect="AspectFill"
+                                            WidthRequest="90" HeightRequest="100"></Image>
+                                    </Border>
+                                </Grid>
+                                <!-- organizes child views in a one-dimensional horizontal stack -->
+                                <StackLayout Padding="5" Spacing="8">
+                                    <Label Text="{Binding Title}"
+                                        MaxLines="1"
+                                        LineBreakMode="TailTruncation"
+                                        FontSize="16"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="Center" 
+                                        HorizontalOptions="Start" />
+                                    
+                                    <Label Text="{Binding Price, StringFormat='{}{0:c0}'}"
+                                        MaxLines="1"
+                                        FontAttributes="Bold"
+                                        LineBreakMode="TailTruncation"
+                                        FontSize="18"
+                                        VerticalOptions="Center" 
+                                        HorizontalOptions="Start" />
+                                </StackLayout>
+                                
+                            </HorizontalStackLayout>
+                            
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </RefreshView>
+</ContentPage>

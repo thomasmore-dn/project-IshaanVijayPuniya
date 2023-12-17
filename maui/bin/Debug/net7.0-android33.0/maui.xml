@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>maui</name>
+    </assembly>
+    <members>
+        <member name="P:maui.ViewModels.AddPropertyVM.Prop">
+            <inheritdoc cref="F:maui.ViewModels.AddPropertyVM.prop"/>
+        </member>
+        <member name="F:maui.ViewModels.AddPropertyVM.selectImageCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.AddPropertyVM.SelectImageCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.AddPropertyVM.SelectImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.AddPropertyVM.SelectImage"/>.</summary>
+        </member>
+        <member name="F:maui.ViewModels.AddPropertyVM.confirmButtonCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.AddPropertyVM.ConfirmButtonCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.AddPropertyVM.ConfirmButtonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.AddPropertyVM.ConfirmButton"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.BaseVM.IsBusy">
+            <inheritdoc cref="F:maui.ViewModels.BaseVM.isBusy"/>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.IsRefreshing">
+            <inheritdoc cref="F:maui.ViewModels.MainPageVM.isRefreshing"/>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.SelectedProperty">
+            <inheritdoc cref="F:maui.ViewModels.MainPageVM.selectedProperty"/>
+        </member>
+        <member name="F:maui.ViewModels.MainPageVM.getPropertiesCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.MainPageVM.GetPropertiesCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.GetPropertiesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.MainPageVM.GetPropertiesAsync"/>.</summary>
+        </member>
+        <member name="F:maui.ViewModels.MainPageVM.addPropClickedCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.MainPageVM.AddPropClickedCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.AddPropClickedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.MainPageVM.AddPropClicked"/>.</summary>
+        </member>
+        <member name="F:maui.ViewModels.MainPageVM.navigateToDetailCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.MainPageVM.NavigateToDetailCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.MainPageVM.NavigateToDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.MainPageVM.NavigateToDetail"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.PropertyDetailVM.Property">
+            <inheritdoc cref="F:maui.ViewModels.PropertyDetailVM.property"/>
+        </member>
+        <member name="F:maui.ViewModels.PropertyDetailVM.deleteButtonCommand">
+            <summary>The backing field for <see cref="P:maui.ViewModels.PropertyDetailVM.DeleteButtonCommand"/>.</summary>
+        </member>
+        <member name="P:maui.ViewModels.PropertyDetailVM.DeleteButtonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:maui.ViewModels.PropertyDetailVM.DeleteButton"/>.</summary>
+        </member>
+    </members>
+</doc>
